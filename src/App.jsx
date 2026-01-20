@@ -11,7 +11,7 @@ function App() {
         <img src="/3.jpeg" alt='siddhartha Bank' 
         className='w-35 h-9 border-b-2 border-amber-300'/>
       </a>
-      <ul className='cursor-pointer flex gap-7'>
+      <ul className='hidden md:flex gap-7 cursor-pointer'  >
         <li> About Us</li>
         <li>Contact Us</li>
         <li>Locate Us</li>
