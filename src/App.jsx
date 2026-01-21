@@ -48,7 +48,7 @@ function App() {
     </div>
 
     <footer className='footer'>
-      <div className='bg-gray-800 text-white flex justify-center'>
+      <div className='bg-gray-800 text-white flex justify-center flex-wrap shrink md:flex md:flex-wrap md:gap-7 md:shrink lg:shrink-0'>
       <div className='p-4 pt-8 col-md-6 col-lg-4'>
         <h5 className='mb-3 font-bold  text-amber-500'> Rates Charges & Limit </h5>
       <ul className='list-inline'>
