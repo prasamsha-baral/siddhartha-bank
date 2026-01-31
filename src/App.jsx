@@ -47,11 +47,11 @@ function App() {
   
     </div>
 
-    <footer className='footer mt-5 '>
+    <footer className='footer mt-5 right-0  absolute left-0 bottom-0'>
       <div className='bg-gray-800 text-white flex justify-center flex-wrap shrink md:flex md:flex-wrap md:gap-7 md:shrink lg:shrink-0'>
       <div className='p-4 pt-8 col-md-6 col-lg-4'>
         <h5 className='mb-3 font-bold  text-amber-500'> Rates Charges & Limit </h5>
-      <ul className='list-inline'>
+      <ul className='list-inline'> 
         
         <li className='mb-2'><a href='https://www.siddharthabank.com/interest-rates'>Interest Rates</a></li>
         <li className='mb-2'><a href='https://www.siddharthabank.com/rates-charges-limit/base-rate--interest-spread-rate'>Base Rate & Interest Spread Rate</a></li>
