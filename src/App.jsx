@@ -3,13 +3,15 @@ import React from 'react'
 function App() {
   return (
     <>
-    <nav className='main p-3 bg-amber-50 flex justify-center gap-15 border-black'>
+   
+   <div  className="min-h-screen flex flex-col">
+    <nav className=' main p-3  w-full fixed top-0 left-0 h-20 bg-amber-50 flex justify-center gap-15 border-black z-50'>
     
       <a href='https://www.siddharthabank.com/' className='flex md:block lg:flex'>
         <img src="/siddharthabank.png" alt='siddhartha Bank' 
-        className='w-45 h-11'/>
+        className='w-45 h-11 md:h-8 lg:h-11'/>
         <img src="/3.jpeg" alt='siddhartha Bank' 
-        className='w-35 h-9 border-b-2 border-amber-300'/>
+        className='w-35 h-11 md:h-9 lg:h-11 border-b-2 border-amber-300'/>
       </a>
       <ul className='hidden md:flex gap-7 cursor-pointer'  >
         <li> About Us</li>
@@ -28,7 +30,9 @@ function App() {
       </div>
      
     </nav>
-    <div className='text-xs bg-amber-50 md:px-5 lg:px-5 flex justify-center gap-20 border-t border-gray-300 w-full'>
+
+    
+    <div className='text-xs bg-amber-50 md:px-5 lg:px-5 mt-20 flex justify-center gap-20 border-t border-gray-300 w-full'>
     <ul className=' hidden md:flex md:flex-wrap md:gap-7 md:shrink lg:shrink-0 cursor-pointer text-sm'>
       <li>Personal</li>
       <li>Business</li>
@@ -47,8 +51,13 @@ function App() {
   
     </div>
 
-    <footer className='footer mt-5 right-0  absolute left-0 bottom-0'>
-      <div className='bg-gray-800 text-white flex justify-center flex-wrap shrink md:flex md:flex-wrap md:gap-7 md:shrink lg:shrink-0'>
+    {/* MAIN CONTENT */}
+      <main className="flex-1 bg-white p-6 mt-4">
+        <p className="text-lg">Your page content goes here...</p>
+      </main>
+
+    <footer className='footer bg-gray-800 text-white '>
+      <div className=' flex justify-center flex-wrap shrink md:flex md:flex-wrap md:gap-7 md:shrink lg:shrink-0'>
       <div className='p-4 pt-8 col-md-6 col-lg-4'>
         <h5 className='mb-3 font-bold  text-amber-500'> Rates Charges & Limit </h5>
       <ul className='list-inline'> 
@@ -117,6 +126,7 @@ function App() {
       </div>
     </footer>
     
+   </div>
     
     </>
   )
